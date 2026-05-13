@@ -5,7 +5,8 @@
 # Load data
 rm(list = ls())
 require(install.load)
-setwd("/Users/connorlewis_macbookpro/Documents/Personal Filing System/Permanent/Education Connor/2025AUG-2026MAY_MA Economics_UTK/01_Coursework/2026_Spring/Econ_523_Applied_Macroeconomic_Theory/Assignments/FinalProj/HSOHCP-Final-Submission/DATA/R")
+#set wd to the folder ReplicationFiles after downloading the package
+setwd("/Users/connorlewis_macbookpro/Desktop/Econ523FinalProject/Extension&ReplicationFiles/ReplicationFiles")
 require(readxl)
 library(seasonal)
 require(dynlm)
